@@ -1,0 +1,29 @@
+.Education-header {
+  padding: 60px 0;
+}
+
+.t_border {
+  border-top: 3px solid var(--text-color);
+}
+
+.color_sec {
+  color: var(--text-color);
+}
+
+.sec_sp {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.service__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 8px 0;
+  border-bottom: 2px solid var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.service_desc {
+  font-size: 1rem;
+  color: var(--text-color);
+}
