@@ -55,7 +55,10 @@ a,
 a:hover {
   color: var(--text-color);
 }
-
+.s_c {
+  height: 80vh;
+  overflow-y: auto;
+}
 p {
   word-break: break-word;
   -webkit-hyphens: auto;
@@ -104,7 +107,7 @@ code {
 }
 
 .t_border {
-  border-top: 3px solid var(--text-color);
+  border-top: 2px solid #333;
 }
 
 .color_sec {
@@ -117,16 +120,14 @@ code {
 }
 
 .blog_post {
-  margin-bottom: 40px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--text-color);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .blog_title {
   font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: var(--text-color);
+  color: #333;
 }
 
 .blog_date {
@@ -137,11 +138,12 @@ code {
 
 .blog_description {
   font-size: 1rem;
-  color: var(--text-color);
+  line-height: 1.6;
+  color: #555;
 }
 
 .blog_image {
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  border-radius: 8px;
 }

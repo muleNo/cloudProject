@@ -32,7 +32,11 @@ const SkillsPage = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="12" className="text-center">
-            <Button variant="primary" href="/path/to/your/resume.pdf" download>
+            <Button
+              variant="primary"
+              href="/Mulugeta.Assefa-Resume.pdf"
+              download
+            >
               Download Resume
             </Button>
           </Col>
